@@ -1,6 +1,4 @@
-//Program má fungovat tak, že vždy po poslání nějakého znaku do arduina se vypisuje jeden zvolený soubor dat ze 3 datových banků.
-//Uzeměním pinu 2 se přepne na požadovaný bank, tedy až po odeslání prvního znaku, aby se přestalo vypisovat " SEND ME DATA ".
-
+//LED 13 sa rozsvieti iba pri STATE 1
 int pin_LED = 13;
 const int buttonPin1 = 2;
 int buttonState1 = HIGH;
