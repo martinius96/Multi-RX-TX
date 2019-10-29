@@ -1,4 +1,4 @@
-# Multi-RX-TX
+# Multi-RX-TX UART/RS232
 # Zapojenie
 | Arduino (ARRAYS) | ARDUINO (CHAR SENDER) |
 |:-----|--------:|
