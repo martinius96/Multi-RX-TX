@@ -1,4 +1,5 @@
 //LED 13 sa rozsvieti iba pri STATE 1
+//Revízia: Martin Chlebovec (martinius96)
 #include <stdint.h>
 int pin_LED = 13;
 const int buttonPin1 = 2;
@@ -79,7 +80,7 @@ void loop() {
 
 void establishContact() {
   while (Serial.available() <= 0) {
-    Serial.print(" SEND ME DATA ");
+    Serial.println(" SEND ME DATA ");
     delay(1000);
   }
 }
