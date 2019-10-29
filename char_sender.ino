@@ -1,3 +1,6 @@
+
+// Podla mojho originalu: https://github.com/martinius96/Hardware-serial-ESP32
+//klon z HardWareSerial
 #include <SoftwareSerial.h>
 
 SoftwareSerial hwSerial_1(3, 4); // RX, TX
