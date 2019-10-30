@@ -81,6 +81,7 @@ void loop() {
 void establishContact() {
   while (Serial.available() <= 0) {
     Serial.println(" SEND ME DATA ");
+    Serial.print('\n');
     delay(1000);
   }
 }
